@@ -16,6 +16,7 @@ if ( isset($_GET['query']) ) {
 
    $query = $_GET['query'];
    $result = $connection->query($query);
+    $connection->set_charset("utf8");
    if ( stripos($query, "update") !== false ) {
       if ($connection->query($query) === true) {
          die("Record updated successfully");
