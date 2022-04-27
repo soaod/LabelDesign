@@ -7,7 +7,9 @@ if ( isset($_GET['query']) ) {
    
    // Create connection
    $connection = new mysqli($servername, $username, $password);
-
+    if (!$mysqli->set_charset("utf8")) {
+        die("error in setting character");
+    }
    // Check connection
    if ($connection->connect_error) {
    die("Connection failed: " . $connection->connect_error);
@@ -16,7 +18,7 @@ if ( isset($_GET['query']) ) {
 
    $query = $_GET['query'];
    $result = $connection->query($query);
-    $connection->set_charset("utf8");
+    
    if ( stripos($query, "update") !== false ) {
       if ($connection->query($query) === true) {
          die("Record updated successfully");
