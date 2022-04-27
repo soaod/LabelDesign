@@ -7,7 +7,7 @@ if ( isset($_GET['query']) ) {
    
    // Create connection
    $connection = new mysqli($servername, $username, $password);
-    if (!$mysqli->set_charset("utf8")) {
+    if (!$connection->set_charset("utf8")) {
         die("error in setting character");
     }
    // Check connection
