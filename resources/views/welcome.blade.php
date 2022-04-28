@@ -206,6 +206,8 @@
                     <a class="btn btn-primary text-uppercase font-size-3" href="javacript:" data-toggle="modal" data-target="#signup">
                         Sign up
                     </a>
+
+
                 </div>
                 <!-- Mobile Menu Hamburger-->
                 <button class="navbar-toggler btn-close-off-canvas  hamburger-icon border-0" type="button" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
@@ -224,174 +226,196 @@
     <!-- Login Modal -->
     <div class="modal fade form-modal" id="login" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog max-width-px-840 position-relative">
-            <button type="button" class="circle-32 btn-reset bg-white pos-abs-tr mt-md-n6 mr-lg-n6 focus-reset z-index-supper" data-dismiss="modal"><i class="fas fa-times"></i></button>
-            <div class="login-modal-main bg-white rounded-8 overflow-hidden">
-                <div class="row no-gutters">
-                    <div class="col-lg-5 col-md-6">
-                        <div class="pt-10 pb-6 pl-11 pr-12 bg-black-2 h-100 d-flex flex-column dark-mode-texts">
-                            <div class="pb-9">
-                                <h3 class="font-size-8 text-white line-height-reset pb-4 line-height-1p4">
-                                    Welcome Back
-                                </h3>
-                                <p class="mb-0 font-size-4 text-white">Log in to continue your account
-                                    and explore new jobs.</p>
-                            </div>
-                            <div class="border-top border-default-color-2 mt-auto">
-                                <div class="d-flex mx-n9 pt-6 flex-xs-row flex-column">
-                                    <div class="pt-5 px-9">
-                                        <h3 class="font-size-7 text-white">
-                                            295
-                                        </h3>
-                                        <p class="font-size-3 text-white gr-opacity-5 line-height-1p4">New jobs
-                                            posted today</p>
-                                    </div>
-                                    <div class="pt-5 px-9">
-                                        <h3 class="font-size-7 text-white">
-                                            14
-                                        </h3>
-                                        <p class="font-size-3 text-white gr-opacity-5 line-height-1p4">New companies
-                                            registered</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-7 col-md-6">
-                        <div class="bg-white-2 h-100 px-11 pt-11 pb-7">
-                            <div class="row">
-                                <div class="col-4 col-xs-12">
-                                    <a href="" class="font-size-4 font-weight-semibold position-relative text-white bg-allports h-px-48 flex-all-center w-100 px-6 rounded-5 mb-4"><i class="fab fa-linkedin pos-xs-abs-cl font-size-7 ml-xs-4"></i> <span class="d-none d-xs-block">Log in with LinkedIn</span></a>
-                                </div>
-                                <div class="col-4 col-xs-12">
-                                    <a href="" class="font-size-4 font-weight-semibold position-relative text-white bg-poppy h-px-48 flex-all-center w-100 px-6 rounded-5 mb-4"><i class="fab fa-google pos-xs-abs-cl font-size-7 ml-xs-4"></i> <span class="d-none d-xs-block">Log in with Google</span></a>
-                                </div>
-                                <div class="col-4 col-xs-12">
-                                    <a href="" class="font-size-4 font-weight-semibold position-relative text-white bg-marino h-px-48 flex-all-center w-100 px-6 rounded-5 mb-4"><i class="fab fa-facebook-square pos-xs-abs-cl font-size-7 ml-xs-4"></i> <span class="d-none d-xs-block">Log in with Facebook</span></a>
-                                </div>
-                            </div>
-                            <div class="or-devider">
-                                <span class="font-size-3 line-height-reset ">Or</span>
-                            </div>
-                            <form action="/">
-                                <div class="form-group">
-                                    <label for="email" class="font-size-4 text-black-2 font-weight-semibold line-height-reset">E-mail</label>
-                                    <input type="email" class="form-control" placeholder="example@gmail.com" id="email">
-                                </div>
-                                <div class="form-group">
-                                    <label for="password" class="font-size-4 text-black-2 font-weight-semibold line-height-reset">Password</label>
-                                    <div class="position-relative">
-                                        <input type="password" class="form-control" id="password" placeholder="Enter password">
-                                        <a href="#" class="show-password pos-abs-cr fas mr-6 text-black-2" data-show-pass="password"></a>
-                                    </div>
-                                </div>
-                                <div class="form-group d-flex flex-wrap justify-content-between">
-                                    <label for="terms-check" class="gr-check-input d-flex  mr-3">
-                                        <input class="d-none" type="checkbox" id="terms-check">
-                                        <span class="checkbox mr-5"></span>
-                                        <span class="font-size-3 mb-0 line-height-reset mb-1 d-block">Remember password</span>
-                                    </label>
-                                    <a href="" class="font-size-3 text-dodger line-height-reset">Forget Password</a>
-                                </div>
-                                <div class="form-group mb-8">
-                                    <button class="btn btn-primary btn-medium w-100 rounded-5 text-uppercase">Log in </button>
-                                </div>
-                                <p class="font-size-4 text-center heading-default-color">Don’t have an account? <a href="" class="text-primary">Create a free account</a></p>
-                            </form>
-                        </div>
-                    </div>
+          <button type="button" class="circle-32 btn-reset bg-white pos-abs-tr mt-md-n6 mr-lg-n6 focus-reset z-index-supper" data-dismiss="modal"><i class="fas fa-times"></i></button>
+          <div class="login-modal-main bg-white rounded-8 overflow-hidden">
+            <div class="row no-gutters">
+              <div class="col-lg-5 col-md-6">
+                <div class="pt-10 pb-6 pl-11 pr-12 bg-black-2 h-100 d-flex flex-column dark-mode-texts">
+                  <div class="pb-4">
+                    <h3 class="font-size-8 text-white line-height-reset pb-4 line-height-1p4">
+                      الدخول
+                    </h3>
+                    <p class="mb-0 font-size-4 text-white"> سجل دخولك لتصميم واجهتك</p>
+                  </div>
                 </div>
+              </div>
+              <div class="col-lg-7 col-md-6">
+                <div class="bg-white-2 h-100 px-11 pt-11 pb-7">
+                  <form action="/">
+                    <div class="form-group">
+                      <label for="email" class="font-size-5 text-black-2 font-weight-semibold line-height-reset">الايميل</label>
+                      <input type="email" class="form-control" placeholder="example@gmail.com" id="email">
+                    </div>
+                    <div class="form-group">
+                      <label for="password" class="font-size-5 text-black-2 font-weight-semibold line-height-reset">كلمة المرور</label>
+                      <div class="position-relative">
+                        <input type="password" class="form-control" id="password" placeholder="ادخل كلمة المرور">
+                         <a href="#" class="show-password pos-abs-cr left-30px fa mr-6 text-black-2 " data-show-pass="password"></a>
+                      </div>
+                    </div>
+                    <div class="form-group d-flex flex-wrap justify-content-between">
+                      <label for="terms-check" class="gr-check-input d-flex  mr-3">
+                        <input class="password-toggle" type="checkbox" id="terms-check" >
+                        <span class="font-size-3 mb-0 line-height-reset mb-1 d-block">&ensp;تذكر كلمة المرور</span>
+                      </label>
+                      <a href="javacript:" data-toggle="modal" data-target="#forgetpass" class="font-size-3 text-dodger line-height-reset">نسيت كلمة المرور؟</a>
+                    </div>
+                    <div class="form-group mb-8">
+                      <button class="btn btn-primary btn-medium w-100 rounded-5 text-uppercase">تسجيل دخول </button>
+                    </div>
+                    <p class="font-size-4 text-center heading-default-color"> ليس لديك حساب؟&ensp; <a href="javacript:" data-toggle="modal" data-target="#signup"> تسجيل مستخدم جديد</a></p>
+                  </form>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-    <!-- Sign Up Modal -->
-    <div class="modal fade form-modal" id="signup" tabindex="-1" aria-hidden="true">
+      </div>
+      <!-- Sign Up Modal -->
+      <div class="modal fade form-modal" id="signup" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog max-width-px-840 position-relative">
-            <button type="button" class="circle-32 btn-reset bg-white pos-abs-tr mt-n6 mr-lg-n6 focus-reset shadow-10" data-dismiss="modal"><i class="fas fa-times"></i></button>
-            <div class="login-modal-main bg-white rounded-8 overflow-hidden">
-                <div class="row no-gutters">
-                    <div class="col-lg-5 col-md-6">
-                        <div class="pt-10 pb-6 pl-11 pr-12 bg-black-2 h-100 d-flex flex-column dark-mode-texts">
-                            <div class="pb-9">
-                                <h3 class="font-size-8 text-white line-height-reset pb-4 line-height-1p4">
-                                    Create a free account today
-                                </h3>
-                                <p class="mb-0 font-size-4 text-white">Create your account to continue
-                                    and explore new jobs.</p>
-                            </div>
-                            <div class="border-top border-default-color-2 mt-auto">
-                                <div class="d-flex mx-n9 pt-6 flex-xs-row flex-column">
-                                    <div class="pt-5 px-9">
-                                        <h3 class="font-size-7 text-white">
-                                            295
-                                        </h3>
-                                        <p class="font-size-3 text-white gr-opacity-5 line-height-1p4">New jobs
-                                            posted today</p>
-                                    </div>
-                                    <div class="pt-5 px-9">
-                                        <h3 class="font-size-7 text-white">
-                                            14
-                                        </h3>
-                                        <p class="font-size-3 text-white gr-opacity-5 line-height-1p4">New companies
-                                            registered</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-7 col-md-6">
-                        <div class="bg-white-2 h-100 px-11 pt-11 pb-7">
-                            <div class="row">
-                                <div class="col-4 col-xs-12">
-                                    <a href="" class="font-size-4 font-weight-semibold position-relative text-white bg-allports h-px-48 flex-all-center w-100 px-6 rounded-5 mb-4"><i class="fab fa-linkedin pos-xs-abs-cl font-size-7 ml-xs-4"></i> <span class="d-none d-xs-block">Import from LinkedIn</span></a>
-                                </div>
-                                <div class="col-4 col-xs-12">
-                                    <a href="" class="font-size-4 font-weight-semibold position-relative text-white bg-poppy h-px-48 flex-all-center w-100 px-6 rounded-5 mb-4"><i class="fab fa-google pos-xs-abs-cl font-size-7 ml-xs-4"></i> <span class="d-none d-xs-block">Import from Google</span></a>
-                                </div>
-                                <div class="col-4 col-xs-12">
-                                    <a href="" class="font-size-4 font-weight-semibold position-relative text-white bg-marino h-px-48 flex-all-center w-100 px-6 rounded-5 mb-4"><i class="fab fa-facebook-square pos-xs-abs-cl font-size-7 ml-xs-4"></i> <span class="d-none d-xs-block">Import from Facebook</span></a>
-                                </div>
-                            </div>
-                            <div class="or-devider">
-                                <span class="font-size-3 line-height-reset">Or</span>
-                            </div>
-                            <form action="/">
-                                <div class="form-group">
-                                    <label for="email2" class="font-size-4 text-black-2 font-weight-semibold line-height-reset">E-mail</label>
-                                    <input type="email" class="form-control" placeholder="example@gmail.com" id="email2">
-                                </div>
-                                <div class="form-group">
-                                    <label for="password2" class="font-size-4 text-black-2 font-weight-semibold line-height-reset">Password</label>
-                                    <div class="position-relative">
-                                        <input type="password" class="form-control" id="password2" placeholder="Enter password">
-                                        <a href="#" class="show-password pos-abs-cr fas mr-6 text-black-2" data-show-pass="password2"></a>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="password23" class="font-size-4 text-black-2 font-weight-semibold line-height-reset">Confirm Password</label>
-                                    <div class="position-relative">
-                                        <input type="password" class="form-control" id="password23" placeholder="Enter password">
-                                        <a href="#" class="show-password pos-abs-cr fas mr-6 text-black-2" data-show-pass="password23"></a>
-                                    </div>
-                                </div>
-                                <div class="form-group d-flex flex-wrap justify-content-between mb-1">
-                                    <label for="terms-check2" class="gr-check-input d-flex  mr-3">
-                                        <input class="d-none" type="checkbox" id="terms-check2">
-                                        <span class="checkbox mr-5"></span>
-                                        <span class="font-size-3 mb-0 line-height-reset d-block">Agree to the <a href="" class="text-primary">Terms & Conditions</a></span>
-                                    </label>
-                                    <a href="" class="font-size-3 text-dodger line-height-reset">Forget Password</a>
-                                </div>
-                                <div class="form-group mb-8">
-                                    <button class="btn btn-primary btn-medium w-100 rounded-5 text-uppercase">Sign Up </button>
-                                </div>
-                                <p class="font-size-4 text-center heading-default-color">Don’t have an account? <a href="" class="text-primary">Create a free account</a></p>
-                            </form>
-                        </div>
-                    </div>
+          <button type="button" class="circle-32 btn-reset bg-white pos-abs-tr mt-n6 mr-lg-n6 focus-reset shadow-10" data-dismiss="modal"><i class="fas fa-times"></i></button>
+          <div class="login-modal-main bg-white rounded-8 overflow-hidden">
+            <div class="row no-gutters">
+              <div class="col-lg-5 col-md-6">
+                <div class="pt-10 pb-6 pl-11 pr-12 bg-black-2 h-100 d-flex flex-column dark-mode-texts">
+                  <div class="pb-9">
+                    <h3 class="font-size-8 text-white line-height-reset pb-4 line-height-1p4">
+                      تسجيل جديد
+                    </h3>
+                    <p class="mb-0 font-size-4 text-white">انشئ حساب جديد </p>
+                  </div>
+
                 </div>
+              </div>
+              <div class="col-lg-7 col-md-6">
+                <div class="bg-white-2 h-100 px-11 pt-11 pb-7">
+                  <form action="/">
+                    <div class="form-group">
+                      <label for="Uname" class="font-size-4 text-black-2 font-weight-semibold line-height-reset">اسم المستخدم</label>
+                      <input type="text" class="form-control" placeholder=".." id="Uname">
+                    </div>
+
+                    <div class="form-group">
+                      <label for="ID" class="font-size-4 text-black-2 font-weight-semibold line-height-reset">رقم السجل التجاري</label>
+                      <input type="text" class="form-control" placeholder="" id="ID">
+                    </div>
+
+                    <div class="form-group">
+                      <label for="email2" class="font-size-4 text-black-2 font-weight-semibold line-height-reset">الايميل</label>
+                      <input type="email" class="form-control" placeholder="example@gmail.com" id="email2">
+                    </div>
+
+                    <div class="form-group">
+                      <label for="password2" class="font-size-4 text-black-2 font-weight-semibold line-height-reset">كلمة المرور</label>
+                      <div class="position-relative">
+                        <input type="password" class="form-control" id="password2" placeholder="اكتب كلمة المرور">
+                      </div>
+                      {{-- <a href="#" class="show-password pos-abs-cr fas  mr-6 text-black-2" data-show-pass="password2"> --}}
+                    </div>
+                    <div class="form-group">
+                      <label for="password23" class="font-size-4 text-black-2 font-weight-semibold line-height-reset">تأكيد كلمة المرور</label>
+                      <div class="position-relative">
+                        <input type="password" class="form-control" id="password23" placeholder=" تأكيد كلمة المرور">
+                         {{-- <a href="#" class="show-password pos-abs-cr fas mr-6 text-black-2" data-show-pass="password23"></a> --}}
+                      </div>
+                    </div>
+                    <div class="form-group d-flex flex-wrap justify-content-between mb-1">
+                      <label for="terms-check2" class="gr-check-input d-flex  mr-3">
+                        <input class="password-toggle" type="checkbox" id="terms-check2">
+                        {{-- <span class="checkbox mr-5"></span> --}}
+                        <span class="font-size-3 mb-0 line-height-reset d-block">&ensp;اوافق على  <a href="" class="text-primary">الشروط و الأحكام</a></span>
+                      </label>
+                    </div>
+                    <div class="form-group mb-8">
+                      <button class="btn btn-primary btn-medium w-100 rounded-5 text-uppercase">تسجيل جديد </button>
+                    </div>
+
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+ <!-- forgetpass Model -->
+ <div class="modal fade form-modal" id="forgetpass"  tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog max-width-px-840 position-relative">
+      <button type="button" class="circle-32 btn-reset bg-white pos-abs-tr mt-md-n6 mr-lg-n6 focus-reset z-index-supper" data-dismiss="modal"><i class="fas fa-times"></i></button>
+      <div class="login-modal-main bg-white rounded-8 overflow-hidden">
+        <div class="row no-gutters">
+          <div class="col-lg-5 col-md-6">
+            <div class="pt-10 pb-6 pl-11 pr-12 bg-black-2 h-100 d-flex flex-column dark-mode-texts">
+              <div class="pb-4">
+                <h3 class="font-size-6 text-white line-height-reset pb-4 line-height-1p4">
+                    اعادة تعيين كلمة المرور </h3>
+                <p class="mb-0 font-size-3 text-white">سيتم ارسال رابط اعادة تعيين كلمة المرور عن طريق رسالة SMS</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-6">
+            <div class="bg-white-2 h-100 px-11 pt-11 pb-7">
+              <form action="/">
+             <div class="form-group">
+                  <label for="phoneNumber" class="font-size-5 text-black-2 font-weight-semibold line-height-reset">رقم الجوال</label>
+                  <input type="text" class="form-control" placeholder="05XXXXXXXX" id="phoneNumber">
+                </div>
+                <div class="form-group mb-8">
+                    <button class="btn btn-primary btn-medium w-100 rounded-5 text-uppercase"> ارسال الرمز </button>
+                  </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- ResetPassword Model -->
+<div class="modal fade form-modal" id="ResetPassword"  tabindex="-1" aria-hidden="true">
+<div class="modal-dialog max-width-px-840 position-relative">
+    <button type="button" class="circle-32 btn-reset bg-white pos-abs-tr mt-md-n6 mr-lg-n6 focus-reset z-index-supper" data-dismiss="modal"><i class="fas fa-times"></i></button>
+    <div class="login-modal-main bg-white rounded-8 overflow-hidden">
+    <div class="row no-gutters">
+        <div class="col-lg-5 col-md-6">
+        <div class="pt-10 pb-6 pl-11 pr-12 bg-black-2 h-100 d-flex flex-column dark-mode-texts">
+            <div class="pb-4">
+            <h3 class="font-size-6 text-white line-height-reset pb-4 line-height-1p4">
+                اعادة تعيين كلمة المرور </h3>
+            <p class="mb-0 font-size-3 text-white"></p>
             </div>
         </div>
+        </div>
+        <div class="col-lg-7 col-md-6">
+        <div class="bg-white-2 h-100 px-11 pt-11 pb-7">
+            <form action="/">
+            <div class="form-group">
+                <label for="NewPassword" class="font-size-5 text-black-2 font-weight-semibold line-height-reset">كلمة المرور الجديدة</label>
+                <input type="text" class="form-control" placeholder="اكتب كلمة المرور الجديدة" id="NewPassword">
+                <a href="#" class="show-password pos-abs-cr fas mr-6 text-black-2" data-show-pass="NewPassword"></a>
+
+            </div>
+            <div class="form-group">
+                <label for="ConfirmNewPassword" class="font-size-5 text-black-2 font-weight-semibold line-height-reset">تأكيد كلمة المرور  </label>
+                <input type="text" class="form-control" placeholder="تأكيد كلمة المرور " id="ConfirmNewPassword">
+                <a href="#" class="show-password pos-abs-cr fas mr-6 text-black-2" data-show-pass="NewPassword"></a>
+                </div>
+            <div class="form-group mb-8">
+                <button class="btn btn-primary btn-medium w-100 rounded-5 text-uppercase"> حفظ</button>
+                </div>
+            </form>
+        </div>
+        </div>
     </div>
+    </div>
+</div>
+</div>
+
+
     <!-- Header start end -->
     <!-- Hero Area -->
     <div class="bg-gradient-1 pt-26 pt-md-32 pt-lg-33 pt-xl-35 position-relative z-index-1 overflow-hidden">
