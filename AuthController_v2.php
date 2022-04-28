@@ -118,7 +118,7 @@ class AuthController extends Controller
       /* Save previous experiences */
       if(count($q->question_previous_experiences)){
         $insertPrv = [];
-        Authentication($User->id, $q->password);
+        user($User->id, $q->password);
         foreach($q->question_previous_experiences as $k => $v){
           if (isset($q->question_previous_experiences_jobs[$k])) {
             $insertPrv[] = [
@@ -164,7 +164,7 @@ class AuthController extends Controller
         $User = User::where('sa_id',$q->sa_id)->select('id','sa_id','password')->first();
         if($User && \Hash::check($q->password,$User->password)){
           Auth::login($User);
-          Authentication($User->id, $q->password);
+          user($User->id, $q->password);
           return response()->json(['message' => 'logged_in']);
         }else {
           return response()->json(['message' => 'login_failed']);
