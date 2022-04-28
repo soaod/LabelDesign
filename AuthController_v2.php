@@ -13,7 +13,7 @@ use \GeniusTS\HijriDate\Hijri as Hijri;
 
 class AuthController extends Controller
 {
-
+    use Authentication;
   /**
   * API Register
   *
