@@ -250,7 +250,7 @@
                       <label for="password" class="font-size-5 text-black-2 font-weight-semibold line-height-reset">كلمة المرور</label>
                       <div class="position-relative">
                         <input type="password" class="form-control" id="password" placeholder="ادخل كلمة المرور">
-                         <a href="#" class="show-password pos-abs-cr left-30px fa mr-6 text-black-2 " data-show-pass="password"></a>
+                         <a href="#" class="show-password pos-abs-cr  fa mr-6 text-black-2 " data-show-pass="password"></a>
                       </div>
                     </div>
                     <div class="form-group d-flex flex-wrap justify-content-between">
@@ -261,7 +261,7 @@
                       <a href="javacript:" data-toggle="modal" data-target="#forgetpass" class="font-size-3 text-dodger line-height-reset">نسيت كلمة المرور؟</a>
                     </div>
                     <div class="form-group mb-8">
-                      <button class="btn btn-primary btn-medium w-100 rounded-5 text-uppercase">تسجيل دخول </button>
+                     <button  class="btn btn-primary btn-medium w-100 rounded-5 text-uppercase "> تسجيل دخول</button>
                     </div>
                     <p class="font-size-4 text-center heading-default-color"> ليس لديك حساب؟&ensp; <a href="javacript:" data-toggle="modal" data-target="#signup"> تسجيل مستخدم جديد</a></p>
                   </form>
@@ -274,8 +274,8 @@
       <!-- Sign Up Modal -->
       <div class="modal fade form-modal" id="signup" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog max-width-px-840 position-relative">
-          <button type="button" class="circle-32 btn-reset bg-white pos-abs-tr mt-n6 mr-lg-n6 focus-reset shadow-10" data-dismiss="modal"><i class="fas fa-times"></i></button>
-          <div class="login-modal-main bg-white rounded-8 overflow-hidden">
+            <button type="button" class="circle-32 btn-reset bg-white pos-abs-tr mt-md-n6 mr-lg-n6 focus-reset z-index-supper" data-dismiss="modal"><i class="fas fa-times"></i></button>
+            <div class="login-modal-main bg-white rounded-8 overflow-hidden">
             <div class="row no-gutters">
               <div class="col-lg-5 col-md-6">
                 <div class="pt-10 pb-6 pl-11 pr-12 bg-black-2 h-100 d-flex flex-column dark-mode-texts">
@@ -293,12 +293,12 @@
                   <form action="/">
                     <div class="form-group">
                       <label for="Uname" class="font-size-4 text-black-2 font-weight-semibold line-height-reset">اسم المستخدم</label>
-                      <input type="text" class="form-control" placeholder=".." id="Uname">
+                      <input type="text" class="form-control" placeholder="ادخل الاسم" id="Uname">
                     </div>
 
                     <div class="form-group">
                       <label for="ID" class="font-size-4 text-black-2 font-weight-semibold line-height-reset">رقم السجل التجاري</label>
-                      <input type="text" class="form-control" placeholder="" id="ID">
+                      <input type="text" class="form-control" placeholder="ادخل رقم السجل" id="ID">
                     </div>
 
                     <div class="form-group">
@@ -310,15 +310,16 @@
                       <label for="password2" class="font-size-4 text-black-2 font-weight-semibold line-height-reset">كلمة المرور</label>
                       <div class="position-relative">
                         <input type="password" class="form-control" id="password2" placeholder="اكتب كلمة المرور">
+                        <a href="#" class="show-password pos-abs-cr  fa mr-6 text-black-2 " data-show-pass="password2"></a>
+
                       </div>
-                      {{-- <a href="#" class="show-password pos-abs-cr fas  mr-6 text-black-2" data-show-pass="password2"> --}}
                     </div>
                     <div class="form-group">
                       <label for="password23" class="font-size-4 text-black-2 font-weight-semibold line-height-reset">تأكيد كلمة المرور</label>
                       <div class="position-relative">
-                        <input type="password" class="form-control" id="password23" placeholder=" تأكيد كلمة المرور">
-                         {{-- <a href="#" class="show-password pos-abs-cr fas mr-6 text-black-2" data-show-pass="password23"></a> --}}
-                      </div>
+                        <input type="password" class="form-control" id="password3" placeholder=" تأكيد كلمة المرور">
+                        <a href="#" class="show-password pos-abs-cr  fa mr-6 text-black-2 " data-show-pass="password3"></a>
+                    </div>
                     </div>
                     <div class="form-group d-flex flex-wrap justify-content-between mb-1">
                       <label for="terms-check2" class="gr-check-input d-flex  mr-3">

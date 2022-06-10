@@ -15883,7 +15883,7 @@ button.bg-conch:focus {
 
 .pr-0,
 .px-0 {
-  padding-right: 0 !important;
+  padding-right: 1 !important;
 }
 
 .pb-0,
