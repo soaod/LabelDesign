@@ -584,14 +584,14 @@ body[data-theme='light'] .dark-mode-texts .light-shape.default-shape, .light-mod
 
 @media (min-width: 992px) {
   .main-menu > li > .nav-link.gr-toggle-arrow {
-    padding-right: 30px !important;
+    padding-right: 0px !important;
   }
   .main-menu > li > .nav-link.gr-toggle-arrow:before {
     width: calc(100% - 8px);
   }
   .main-menu > li > .nav-link.gr-toggle-arrow i {
     position: absolute;
-    right: -2px;
+    left:-28px;
   }
 }
 
@@ -1986,7 +1986,7 @@ body[data-theme='light'] .dark-mode-texts .light-shape.default-shape, .light-mod
   01.Component -> { Sidebar }
 ------------------------------*/
 .dashboard-sidebar-wrapper {
-  width: 290px;
+  width: 270px;
   height: 100vh;
   position: fixed;
   left: 0;

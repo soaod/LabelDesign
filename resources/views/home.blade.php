@@ -63,149 +63,32 @@
                   </ul> --}}
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle gr-toggle-arrow" id="navbarDropdown2" href="#features" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages <i class="icon icon-small-down"></i></a>
+                  <a class="nav-link dropdown-toggle gr-toggle-arrow" id="navbarDropdown2" href="#features" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">صفحات ذات صلة <i class="icon icon-small-down"></i></a>
                   <ul class="gr-menu-dropdown dropdown-menu" aria-labelledby="navbarDropdown2">
                     <li class="drop-menu-item dropdown">
                       <a class="dropdown-toggle gr-toggle-arrow" id="navbarDropdown242" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Job Pages
-                        <i class="icon icon-small-down"></i>
+                        الطلبات المنجزة
                       </a>
-                      <ul class="gr-menu-dropdown dropdown-menu dropdown-left" aria-labelledby="navbarDropdown242">
-                        <li class="drop-menu-item">
-                          <a href="./search-grid.html">
-                            Job Grid
-                          </a>
-                        </li>
-                        <li class="drop-menu-item">
-                          <a href="./search-list-1.html">
-                            Job List
-                          </a>
-                        </li>
-                        <li class="drop-menu-item">
-                          <a href="./jobdetails.html">
-                            Job Details
-                          </a>
-                        </li>
-                      </ul>
                     </li>
                     <li class="drop-menu-item dropdown">
                       <a class="dropdown-toggle gr-toggle-arrow" id="navbarDropdown21" href="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dashboard
-                        <i class="icon icon-small-down"></i>
+                        طلبات تحت الاجراء
                       </a>
-                      <ul class="gr-menu-dropdown dropdown-menu dropdown-left" aria-labelledby="navbarDropdown21">
-                        <li class="drop-menu-item">
-                          <a href="./dashboard-main.html">
-                            Dashboard Main
-                          </a>
-                        </li>
-                        <li class="drop-menu-item">
-                          <a href="./dashboard-settings.html">
-                            Settings
-                          </a>
-                        </li>
-                        <li class="drop-menu-item">
-                          <a href="./dashboard-posted-applicants.html">
-                            Applicants
-                          </a>
-                        </li>
-                        <li class="drop-menu-item">
-                          <a href="./dashboard-posted-applicants.html">
-                            Posted Jobs
-                          </a>
-                        </li>
-                      </ul>
+
                     </li>
                     <li class="drop-menu-item dropdown">
-                      <a class="dropdown-toggle gr-toggle-arrow" id="navbarDropdown25g" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Candidate Pages
-                        <i class="icon icon-small-down"></i>
-                      </a>
-                      <ul class="gr-menu-dropdown dropdown-menu dropdown-left" aria-labelledby="navbarDropdown25g">
-                        <li class="drop-menu-item">
-                          <a href="./candidate-profile-main.html">
-                            Candidate Profile
-                          </a>
-                        </li>
-                        <li class="drop-menu-item">
-                          <a href="./candidate-profile.html">
-                            Candidate Profile 02
-                          </a>
-                        </li>
-                      </ul>
+                      <a class="dropdown-toggle gr-toggle-arrow" id="navbarDropdown25g" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">طلبات</a>
+
                     </li>
                     <li class="drop-menu-item dropdown">
                       <a class="dropdown-toggle gr-toggle-arrow" id="navbarDropdown242" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Search Pages
-                        <i class="icon icon-small-down"></i>
+                        طلبات
                       </a>
-                      <ul class="gr-menu-dropdown dropdown-menu dropdown-left" aria-labelledby="navbarDropdown242">
-                        <li class="drop-menu-item">
-                          <a href="./search-grid.html">
-                            Search Grid
-                          </a>
-                        </li>
-                        <li class="drop-menu-item">
-                          <a href="./search-list-1.html">
-                            Search List 01
-                          </a>
-                        </li>
-                        <li class="drop-menu-item">
-                          <a href="./search-list-2.html">
-                            Search List 02
-                          </a>
-                        </li>
-                      </ul>
+
                     </li>
-                    <li class="drop-menu-item">
-                      <a href="./company-profile.html">
-                        Company Profile
-                      </a>
+
                     </li>
-                    <li class="drop-menu-item dropdown">
-                      <a class="dropdown-toggle gr-toggle-arrow" id="navbarDropdown242" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Account
-                        <i class="icon icon-small-down"></i>
-                      </a>
-                      <ul class="gr-menu-dropdown dropdown-menu dropdown-left" aria-labelledby="navbarDropdown242">
-                        <li class="drop-menu-item">
-                          <a href="javacript:" data-toggle="modal" data-target="#login">
-                            Sign In
-                          </a>
-                        </li>
-                        <li class="drop-menu-item">
-                          <a href="javacript:" data-toggle="modal" data-target="#signup">
-                            Sign Up
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="drop-menu-item dropdown">
-                      <a class="dropdown-toggle gr-toggle-arrow" id="navbarDropdown26" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Essential
-                        <i class="icon icon-small-down"></i>
-                      </a>
-                      <ul class="gr-menu-dropdown dropdown-menu dropdown-left" aria-labelledby="navbarDropdown26">
-                        <li class="drop-menu-item">
-                          <a href="faq.html">
-                            Faq
-                          </a>
-                        </li>
-                        <li class="drop-menu-item">
-                          <a href="./error-404.html">
-                            404
-                          </a>
-                        </li>
-                        <li class="drop-menu-item">
-                          <a href="./pricing-page.html">
-                            Pricing page
-                          </a>
-                        </li>
-                        <li class="drop-menu-item">
-                          <a href="./contact.html">Contact</a>
-                        </li>
-                      </ul>
-                    </li>
+
                   </ul>
                 </li>
                 <li class="nav-item">
@@ -217,33 +100,15 @@
             <button class="d-block d-lg-none offcanvas-btn-close focus-reset" type="button" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="true" aria-label="Toggle navigation">
               <i class="gr-cross-icon"></i>
             </button>
-          </div>
+
           <div class="header-btn-devider ml-auto ml-lg-5 pl-2 d-none d-xs-flex align-items-center">
             <div>
               <a href="#" class="px-3 ml-7 font-size-7 notification-block flex-y-center position-relative">
                 <i class="fas fa-bell heading-default-color"></i>
                 <span class="font-size-3 count font-weight-semibold text-white bg-primary circle-24 border border-width-3 border border-white">3</span>
               </a>
-
             </div>
-
-                <a class="nav-link" href="#">اللغة</a>
-
-            {{-- <div>
-              <div class="dropdown show-gr-dropdown py-5">
-                <a class="proile media ml-7 flex-y-center" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <div class="circle-40">
-                    <img src="./image/header-profile.png" alt="">
-                  </div>
-                  <i class="fas fa-chevron-down heading-default-color ml-6"></i>
-                </a>
-                <div class="dropdown-menu gr-menu-dropdown dropdown-right border-0 border-width-2 py-2 w-auto bg-default" aria-labelledby="dropdownMenuLink">
-                  <a class="dropdown-item py-2 font-size-3 font-weight-semibold line-height-1p2 text-uppercase" href="dashboard-settings.html">الاعدادات </a>
-                  <a class="dropdown-item py-2 font-size-3 font-weight-semibold line-height-1p2 text-uppercase" href="candidate-profile-main.html">تعديل الحساب</a>
-                  <a class="dropdown-item py-2 text-red font-size-3 font-weight-semibold line-height-1p2 text-uppercase" href="#">تسجيل الخروج</a>
-                </div>
-              </div>
-            </div> --}}
+                <a class="nav-link  gr-toggle-arrow" href="#">اللغة</a>
           </div>
           <!-- Mobile Menu Hamburger-->
           <button class="navbar-toggler btn-close-off-canvas  hamburger-icon border-0" type="button" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
@@ -436,10 +301,18 @@
           <img src="image/logo-main-black.png" alt="">
         </a>
       </div>
-      <div class="my-15 px-11">
-        <a href="#" class="btn btn-primary btn-xl w-100 text-uppercase"><span class="mr-5 d-inline-block">+</span>Post a new job</a>
-      </div>
-      <ul class="list-unstyled dashboard-layout-sidebar ">
+  <div class="bg-white">
+        <div class="px-5 py-11 text-center border-bottom border-mercury">
+          <a class="mb-4" href="#"><img class="circle-54" src="./image/l3/png/pro-img.png" alt=""></a>
+          <h4 class="mb-0">
+            <a class="text-black-2 font-size-6 font-weight-semibold" href="#">اسم الوكالة</a>
+          </h4>
+          <p class="mb-8">
+            <a class="text-gray font-size-4" href="#">نبذة عن الخدمات</a>
+          </p>
+          </div>
+        </div>
+        <ul class="list-unstyled dashboard-layout-sidebar ">
         <li class="active"><a href="./dashboard-main.html" class="px-10 py-1 my-5 font-size-4 font-weight-semibold flex-y-center"><i class="icon icon-layout-11 mr-7"></i>لوحة التحكم</a></li>
         <li class=""><a href="dashboard-posted-jobs.html" class="px-10 py-1 my-5 font-size-4 font-weight-semibold flex-y-center"><i class="fas fa-briefcase mr-7"></i>الطلبات المنجزة</a></li>
         <li class=""><a href="dashboard-posted-applicants.html" class="px-10 py-1 my-5 font-size-4 font-weight-semibold flex-y-center"><i class="fas fa-user mr-7"></i>طلبات تحت الاجراء <span class="ml-auto px-1 h-1 bg-dodger text-white font-size-3 rounded-5 max-height-px-18 flex-all-center">14</span></a></li>
@@ -503,7 +376,7 @@
               <!-- Category Content -->
               <div class="">
                 <h5 class="font-size-8 font-weight-semibold text-black-2 line-height-reset font-weight-bold mb-1"><span class="number">4.5</span></h5>
-                <p class="font-size-4 font-weight-normal text-gray mb-0">تقييم الوكالة</p>
+                <p class="font-size-4 font-weight-normal text-gray mb-0">  تقييم الوكالة </p>
               </div>
             </a>
             <!-- End Single Category -->

@@ -540,7 +540,7 @@ mark,
 }
 
 .list-unstyled {
-  padding-left: 0;
+  padding-right: 0;
   list-style: none;
 }
 
@@ -15024,7 +15024,9 @@ button.bg-conch:focus {
 
 .mb-0,
 .my-0 {
-  margin-bottom: 0 !important;
+    margin-bottom: 0 !important;
+    margin-right: 1rem;
+
 }
 
 .ml-0,
@@ -15049,6 +15051,7 @@ button.bg-conch:focus {
 .mb-1,
 .my-1 {
   margin-bottom: 0.25rem !important;
+  margin-right: 1.0rem;
 }
 
 .ml-1,
@@ -15187,7 +15190,7 @@ button.bg-conch:focus {
 
 .mr-7,
 .mx-7 {
-  margin-right: 1.25rem !important;
+  margin-right: 0.5rem !important;
 }
 
 .mb-7,
@@ -16152,7 +16155,7 @@ button.bg-conch:focus {
 
 .pb-11,
 .py-11 {
-  padding-bottom: 2.5rem !important;
+  padding-bottom: 1 rem !important;
 }
 
 .pl-11,
