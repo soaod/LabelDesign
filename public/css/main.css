@@ -695,6 +695,7 @@ body[data-theme='light'] .dark-mode-texts .light-shape.default-shape, .light-mod
   }
 }
 
+
 .gr-menu-dropdown.dropdown-right {
   left: auto;
   right: -90%;
@@ -946,6 +947,7 @@ body[data-theme='light'] .dark-mode-texts .light-shape.default-shape, .light-mod
   margin-bottom: 0;
   font-weight: normal;
 }
+
 
 @media (min-width: 320px) and (max-width: 992px) {
   .gr-megamenu-dropdown-2 [class*="col-"] {

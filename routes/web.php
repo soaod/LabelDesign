@@ -23,6 +23,11 @@ Route::get('/dashboard', function () {
 })
 ->name('dashboard');
 
+Route::get('dashboard2', function () {
+    return view('layouts.dashboardC');
+})
+->name('dashboard2');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

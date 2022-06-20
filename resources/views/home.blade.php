@@ -385,7 +385,7 @@
             <div class="mb-14">
             <div class="row mb-11 align-items-center">
                 <div class="col-lg-6 mb-lg-0 mb-4">
-                <h3 class="font-size-7 mb-0">الطلبات المنجزة (12)</h3>
+                <h3 class="font-size-7 mb-0">الطلبات المعروضة (12)</h3>
                 </div>
             </div>
             <div class="bg-white shadow-8 pt-7 rounded pb-8 px-11">
@@ -419,7 +419,7 @@
                         <div class=""><a href="javacript:" class="font-size-3 font-weight-bold text-black-2 text-uppercase" data-toggle="modal" data-target="#employe-profile"> عرض التفاصيل</a></div>
                         </td>
                         <td class="table-y-middle py-7 min-width-px-110 pr-0">
-                        <div class=""><a href="contact.html" class="font-size-4 font-weight-bold text-green text-uppercase">منجز</a></div>
+                        <div class=""><a href="/dashboard" class="font-size-4 font-weight-bold text-black text-uppercase">تقديم عرض</a></div>
                         </td>
 
                     </tr>
@@ -440,7 +440,7 @@
                         <div class=""><a href="javacript:" class="font-size-3 font-weight-bold text-black-2 text-uppercase" data-toggle="modal" data-target="#employe-profile">عرض التفاصيل</a></div>
                         </td>
                         <td class="table-y-middle py-7 min-width-px-110 pr-0">
-                        <div class=""><a href="contact.html" class="font-size-4 font-weight-bold text-green text-uppercase">منجز</a></div>
+                        <div class=""><a href="/dashboard" class="font-size-4 font-weight-bold text-black text-uppercase">تقديم عرض</a></div>
                         </td>
 
                     </tr>
@@ -463,7 +463,7 @@
                         <div class=""><a href="javacript:" class="font-size-3 font-weight-bold text-black-2 text-uppercase" data-toggle="modal" data-target="#employe-profile"> عرض التفاصيل</a></div>
                         </td>
                         <td class="table-y-middle py-7 min-width-px-110 pr-0">
-                        <div class=""><a href="contact.html" class="font-size-4 font-weight-bold text-green text-uppercase">منجز   </a></div>
+                        <div class=""><a href="/dashboard" class="font-size-4 font-weight-bold text-black text-uppercase">تقديم عرض   </a></div>
                         </td>
 
                     </tr>
@@ -484,7 +484,7 @@
                         <div class=""><a href="javacript:" class="font-size-3 font-weight-bold text-black-2 text-uppercase" data-toggle="modal" data-target="#employe-profile"> عرض التفاصيل</a></div>
                         </td>
                         <td class="table-y-middle py-7 min-width-px-110 pr-0">
-                        <div class=""><a href="contact.html" class="font-size-4 font-weight-bold text-green text-uppercase">منجز</a></div>
+                        <div class=""><a href="/dashboard" class="font-size-4 font-weight-bold text-black text-uppercase">تقديم عرض</a></div>
                         </td>
 
                     </tr>
@@ -505,7 +505,7 @@
                         <div class=""><a href="javacript:" class="font-size-3 font-weight-bold text-black-2 text-uppercase" data-toggle="modal" data-target="#employe-profile"> عرض التفاصيل</a></div>
                         </td>
                         <td class="table-y-middle py-7 min-width-px-110 pr-0">
-                        <div class=""><a href="contact.html" class="font-size-4 font-weight-bold text-green text-uppercase">منجز</a></div>
+                        <div class=""><a href="/dashboard" class="font-size-4 font-weight-bold text-black text-uppercase">تقديم عرض</a></div>
                         </td>
                     </tr>
                     </tbody>
@@ -581,7 +581,7 @@
                             <div class=""><a href="javacript:" class="font-size-3 font-weight-bold text-black-2 text-uppercase" data-toggle="modal" data-target="#employe-profile"> عرض التفاصيل</a></div>
                         </td>
                         <td class="table-y-middle py-7 min-width-px-110 pr-0">
-                            <div class=""><a href="contact.html" class="font-size-4 font-weight-bold text-yellow text-uppercase">تحت الاجراء</a></div>
+                            <div class=""><a href="/dashboard" class="font-size-4 font-weight-bold text-yellow text-uppercase">تحت الاجراء</a></div>
                         </td>
 
                         </tr>
@@ -602,7 +602,7 @@
                             <div class=""><a href="javacript:" class="font-size-3 font-weight-bold text-black-2 text-uppercase" data-toggle="modal" data-target="#employe-profile">عرض التفاصيل</a></div>
                         </td>
                         <td class="table-y-middle py-7 min-width-px-110 pr-0">
-                            <div class=""><a href="contact.html" class="font-size-4 font-weight-bold text-yellow text-uppercase">تحت الاجراء</a></div>
+                            <div class=""><a href="/dashboard" class="font-size-4 font-weight-bold text-yellow text-uppercase">تحت الاجراء</a></div>
                         </td>
 
                         </tr>
@@ -625,7 +625,7 @@
                             <div class=""><a href="javacript:" class="font-size-3 font-weight-bold text-black-2 text-uppercase" data-toggle="modal" data-target="#employe-profile"> عرض التفاصيل</a></div>
                         </td>
                         <td class="table-y-middle py-7 min-width-px-110 pr-0">
-                            <div class=""><a href="contact.html" class="font-size-4 font-weight-bold text-yellow text-uppercase">تحت الاجراء   </a></div>
+                            <div class=""><a href="/dashboard" class="font-size-4 font-weight-bold text-yellow text-uppercase">تحت الاجراء   </a></div>
                         </td>
 
                         </tr>
@@ -646,7 +646,7 @@
                             <div class=""><a href="javacript:" class="font-size-3 font-weight-bold text-black-2 text-uppercase" data-toggle="modal" data-target="#employe-profile"> عرض التفاصيل</a></div>
                         </td>
                         <td class="table-y-middle py-7 min-width-px-110 pr-0">
-                            <div class=""><a href="contact.html" class="font-size-4 font-weight-bold text-yellow text-uppercase">تحت الاجراء</a></div>
+                            <div class=""><a href="/dashboard" class="font-size-4 font-weight-bold text-yellow text-uppercase">تحت الاجراء</a></div>
                         </td>
 
                         </tr>
@@ -667,7 +667,7 @@
                             <div class=""><a href="javacript:" class="font-size-3 font-weight-bold text-black-2 text-uppercase" data-toggle="modal" data-target="#employe-profile"> عرض التفاصيل</a></div>
                         </td>
                         <td class="table-y-middle py-7 min-width-px-110 pr-0">
-                            <div class=""><a href="contact.html" class="font-size-4 font-weight-bold text-yellow text-uppercase">تحت الاجراء</a></div>
+                            <div class=""><a href="/dashboard" class="font-size-4 font-weight-bold text-yellow text-uppercase">تحت الاجراء</a></div>
                         </td>
                         </tr>
                     </tbody>
@@ -703,62 +703,39 @@
                         <div class="px-5 py-11 text-center border-bottom border-mercury">
                         <a class="mb-4" href="#"><img class="circle-54" src="./image/l3/png/pro-img.png" alt=""></a>
                         <h4 class="mb-0">
-                            <a class="text-black-2 font-size-6 font-weight-semibold" href="#">David Henricks</a>
+                            <a class="text-black-2 font-size-6 font-weight-semibold" href="#">اسم العميل</a>
                         </h4>
-                        <p class="mb-8">
-                            <a class="text-gray font-size-4" href="#">Product Designer</a>
-                        </p>
-                        <div class="icon-link d-flex align-items-center justify-content-center flex-wrap">
-                            <a class="text-smoke circle-32 bg-concrete mr-5 hover-bg-green" href="#">
-                            <i class="fab fa-linkedin-in"></i>
-                            </a>
-                            <a class="text-smoke circle-32 bg-concrete mr-5 hover-bg-green" href="#">
-                            <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a class="text-smoke circle-32 bg-concrete mr-5 hover-bg-green" href="#">
-                            <i class="fab fa-twitter"></i>
-                            </a>
-                            <a class="text-smoke circle-32 bg-concrete mr-5 hover-bg-green" href="#">
-                            <i class="fab fa-dribbble"></i>
-                            </a>
-                            <a class="text-smoke circle-32 bg-concrete mr-5 hover-bg-green" href="#">
-                            <i class="fab fa-behance"></i>
-                            </a>
-                        </div>
+
+
                         </div>
                         <!-- Top End -->
                         <!-- Bottom Start -->
                         <div class="px-5 px-xs-12 px-lg-5 pt-lg-5 pt-9 px-xl-9 pt-xl-9 pb-5">
-                        <h5 class="text-black-2 mb-8 font-size-5">Contact Info</h5>
+                        <h5 class="text-black-2 mb-8 font-size-5">معلومات التواصل</h5>
                         <!-- Single List -->
                         <div class="mb-7">
-                            <p class="font-size-4 mb-0 text-gray">Location</p>
-                            <h5 class="font-size-4 font-weight-semibold mb-0 text-black-2 text-break">New York , USA</h5>
+                            <p class="font-size-4 mb-0 text-gray">الموقع</p>
+                            <h5 class="font-size-4 font-weight-semibold mb-0 text-black-2 text-break">الرياض</h5>
                         </div>
                         <!-- Single List -->
                         <!-- Single List -->
                         <div class="mb-7">
-                            <p class="font-size-4 mb-0 text-gray">E-mail</p>
+                            <p class="font-size-4 mb-0 text-gray">الايميل:</p>
                             <h5 class="font-size-4 font-weight-semibold mb-0">
-                            <a class="text-black-2 text-break" href="mailto:name_ac@gmail.com">name_ac@gmail.com</a>
+                            <a class="text-black-2 text-break" href="mailto:name_ac@gmail.com">costumer@gmail.com</a>
                             </h5>
                         </div>
                         <!-- Single List -->
                         <!-- Single List -->
                         <div class="mb-7">
-                            <p class="font-size-4 mb-0 text-gray">Phone</p>
+                            <p class="font-size-4 mb-0 text-gray">الجوال :</p>
                             <h5 class="font-size-4 font-weight-semibold mb-0">
-                            <a class="text-black-2 text-break" href="tel:+999565562">+999 565 562</a>
+                            <a class="text-black-2 text-break" href="tel:+9665XXXXXXXX">+9665XXXXXXXX</a>
                             </h5>
                         </div>
                         <!-- Single List -->
                         <!-- Single List -->
-                        <div class="mb-7">
-                            <p class="font-size-4 mb-0 text-gray">Website Linked</p>
-                            <h5 class="font-size-4 font-weight-semibold mb-0">
-                            <a class="text-break" href="#">www.nameac.com</a>
-                            </h5>
-                        </div>
+
                         <!-- Single List -->
                         </div>
                         <!-- Bottom End -->
@@ -767,95 +744,36 @@
                 </div>
                 <!-- Left Sidebar End -->
                 <!-- Middle Content -->
-                <div class="col-12 col-xl-6 col-lg-8 col-md-7 order-2 order-lg-1 border-right border-mercury">
-                    <div class="bg-white rounded-4 overflow-auto h-1173">
+                <div class="col-12 col-xl-6 col-lg-8 col-md-7 order-2 order-lg-1 border-right ">
+                    <div class="bg-white rounded-4 overflow-auto">
                     <!-- Excerpt Start -->
                     <div class="pr-xl-0 pr-xxl-14 p-5 px-xs-12 pt-7 pb-5">
-                        <h4 class="font-size-6 font-weight-semibold mb-7 mt-5 text-black-2">About</h4>
-                        <p class="font-size-4 mb-8">A talented professional with an academic background in IT and proven
-                        commercial development experience as C++ developer since 1999. Has a sound knowledge of the software
-                        development life cycle. Was involved in more than 140 software development outsourcing projects.</p>
-                        <p class="font-size-4 mb-8">Programming Languages: C/C++, .NET C++, Python, Bash, Shell, PERL, Regular
-                        expressions, Python, Active-script.</p>
+                        <h4 class="font-size-6 font-weight-semibold mb-7 mt-5 text-black-2">التفاصيل</h4>
+                        <p class="font-size-4 mb-8">الطول :&emsp;&emsp;&emsp;&emsp;&emsp; العرض :  <p class="font-size-4 mb-8">النوع: لوحة
+
+                        </p>
+
+
+
+                        {{-- <p class="font-size-4 mb-8">Programming Languages: C/C++, .NET C++, Python, Bash, Shell, PERL, Regular
+                        expressions, Python, Active-script.</p> --}}
                     </div>
                     <!-- Excerpt End -->
-                    <!-- Skills -->
+                    <!-- الموقع -->
                     <div class="border-top border-mercury pr-xl-0 pr-xxl-14 p-5 pl-xs-12 pt-7 pb-5">
-                        <h4 class="font-size-6 font-weight-semibold mb-7 mt-5 text-black-2">Skills</h4>
-                        <ul class="list-unstyled d-flex align-items-center flex-wrap">
-                        <li>
-                            <a class="bg-polar text-black-2  mr-6 px-7 mt-2 mb-2 font-size-3 rounded-3 min-height-32 d-flex align-items-center" href="#">Agile</a>
-                        </li>
-                        <li>
-                            <a class="bg-polar text-black-2  mr-6 px-7 mt-2 mb-2 font-size-3 rounded-3 min-height-32 d-flex align-items-center" href="#">Wireframing</a>
-                        </li>
-                        <li>
-                            <a class="bg-polar text-black-2  mr-6 px-7 mt-2 mb-2 font-size-3 rounded-3 min-height-32 d-flex align-items-center" href="#">Prototyping</a>
-                        </li>
-                        <li>
-                            <a class="bg-polar text-black-2  mr-6 px-7 mt-2 mb-2 font-size-3 rounded-3 min-height-32 d-flex align-items-center" href="#">Information</a>
-                        </li>
-                        <li>
-                            <a class="bg-polar text-black-2  mr-6 px-7 mt-2 mb-2 font-size-3 rounded-3 min-height-32 d-flex align-items-center" href="#">Waterfall Model</a>
-                        </li>
-                        <li>
-                            <a class="bg-polar text-black-2  mr-6 px-7 mt-2 mb-2 font-size-3 rounded-3 min-height-32 d-flex align-items-center" href="#">New Layout</a>
-                        </li>
-                        <li>
-                            <a class="bg-polar text-black-2  mr-6 px-7 mt-2 mb-2 font-size-3 rounded-3 min-height-32 d-flex align-items-center" href="#">Browsing</a>
-                        </li>
-                        </ul>
+                        <h4 class="font-size-6 font-weight-semibold mb-7 mt-5 text-black-2">الموقع</h4>
+                        <devsite-iframe style="height: 200px" class="">
+
+                            <iframe src="https://geo-devrel-javascript-samples.web.app/samples/add-map/app/dist/" allow="fullscreen; "></iframe>
+
+                      </devsite-iframe>
                     </div>
-                    <!-- Skills End -->
+                    <!-- الموقع End -->
                     <!-- Card Section Start -->
-                    <div class="border-top border-mercury p-5 pl-xs-12 pt-7 pb-5">
-                        <h4 class="font-size-6 font-weight-semibold mb-7 mt-5 text-black-2">Work Exprerience</h4>
-                        <!-- Single Card -->
-                        <div class="w-100">
-                        <div class="d-flex align-items-center pr-11 mb-9 flex-wrap flex-sm-nowrap">
-                            <div class="square-72 d-block mr-8 mb-7 mb-sm-0">
-                            <img src="./image/l2/png/featured-job-logo-1.png" alt="">
-                            </div>
-                            <div class="w-100 mt-n2">
-                            <h3 class="mb-0">
-                                <a class="font-size-5 font-weight-semibold text-black-2" href="#">Lead Product Designer</a>
-                            </h3>
-                            <a href="#" class="font-size-4 text-default-color line-height-2">Airabnb</a>
-                            <div class="d-flex align-items-center justify-content-md-between flex-wrap">
-                                <a href="" class="font-size-3 text-gray">Jun 2017 - April 2020- 3 years</a>
-                                <a href="" class="font-size-3 text-gray">
-                                <span class="mr-4" style="margin-top: -2px"><img
-                                src="./image/svg/icon-loaction-pin-black.svg" alt=""></span>New York, USA</a>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                        <!-- Single Card End -->
-                        <!-- Single Card -->
-                        <div class="w-100">
-                        <div class="d-flex align-items-center pr-11 mb-9 flex-wrap flex-sm-nowrap">
-                            <div class="square-72 d-block mr-8 mb-7 mb-sm-0">
-                            <img src="./image/l1/png/feature-brand-1.png" alt="">
-                            </div>
-                            <div class="w-100 mt-n2">
-                            <h3 class="mb-0">
-                                <a class="font-size-5 font-weight-semibold text-black-2" href="#">Senior UI/UX Designer</a>
-                            </h3>
-                            <a href="#" class="font-size-4 text-default-color line-height-2">Google Inc</a>
-                            <div class="d-flex align-items-center justify-content-md-between flex-wrap">
-                                <a href="" class="font-size-3 text-gray">Jun 2017 - April 2020- 3 years</a>
-                                <a href="" class="font-size-3 text-gray">
-                                <span class="mr-4" style="margin-top: -2px"><img
-                                src="./image/svg/icon-loaction-pin-black.svg" alt=""></span>New York, USA</a>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                        <!-- Single Card End -->
-                    </div>
+
                     <!-- Card Section End -->
                     <!-- Card Section Start -->
-                    <div class="border-top border-mercury p-5 pl-xs-12 pt-7 pb-5">
+                    {{-- <div class="border-top border-mercury p-5 pl-xs-12 pt-7 pb-5">
                         <h4 class="font-size-6 font-weight-semibold mb-7 mt-5 text-black-2">Education</h4>
                         <!-- Single Card -->
                         <div class="w-100">
@@ -920,7 +838,7 @@
                             </div>
                             </div>
                         </div>
-                        </div>
+                        </div> --}}
                         <!-- Single Card End -->
                     </div>
                     <!-- Card Section End -->
@@ -930,8 +848,8 @@
                 <!-- Right Sidebar Start -->
                 <div class="col-12 col-xl-3 order-3 order-lg-2 bg-default-2">
                     <div class="text-center mb-13 mb-lg-0 mt-12">
-                    <button class="btn btn-primary btn-xl mb-7 d-block mx-auto text-uppercase">Contact</button>
-                    <button class="btn btn-outline-gray btn-xl mb-7 d-block mx-auto text-uppercase">Reject</button>
+                    {{-- <button class="btn btn-primary btn-xl mb-7 d-block mx-auto text-uppercase"></button> --}}
+                    <button class="btn btn-outline-gray btn-x1 mb-7 d-block mx-auto  ">إغلاق</button>
                     </div>
                 </div>
                 <!-- Right Sidebar End -->
